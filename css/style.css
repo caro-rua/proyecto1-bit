@@ -1,0 +1,49 @@
+.tarjetero {
+    -webkit-perspective: 800;
+    perspective: 800;
+}
+
+.tarjeta {
+    background-color: #DDDDDD;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+}
+
+.frontal,
+.posterior {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frontal img {
+    width: 100%;
+    height: 100%;
+}
+
+.posterior {
+    transform: rotatey(180deg);
+    padding: 25px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.posterior h1 {
+    text-align: center;
+    color: #519259;
+}
+
+.posterior p {
+    margin: 40px 0;
+}
+
+.tarjetero:hover .tarjeta {
+    transform: rotatey(180deg);
+}
