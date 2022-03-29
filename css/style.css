@@ -51,3 +51,21 @@
 .registro-titulo {
     color: #05595B;
 }
+
+.card-img-overlay{
+
+    cursor:pointer; 
+    
+
+
+}
+
+.fondo{
+
+    opacity: .5;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+   
+
+
+}
