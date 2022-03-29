@@ -23,7 +23,7 @@
     backface-visibility: hidden;
 }
 
-.frontal img {
+.bogo-img {
     width: 100%;
     height: 100%;
 }
@@ -46,4 +46,8 @@
 
 .tarjetero:hover .tarjeta {
     transform: rotatey(180deg);
+}
+
+.registro-titulo {
+    color: #05595B;
 }
